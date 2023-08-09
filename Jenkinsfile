@@ -11,7 +11,7 @@ pipeline{
     stages{
         
         // stage means a job to jenkins
-        stage('Clone the repo')
+        stage('Clone the repo by shree')
         {
             steps{
                 git 'https://github.com/Sonal0409/DevOpsCodeDemo.git'
